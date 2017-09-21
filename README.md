@@ -1,8 +1,8 @@
 # Learn Python the Guild Way
 
 ## Overall Goals
+1. Setup and standardize student environments
 1. Give attendees a basic foundation to launch their learning journey
-2. Assess students who have applied to bootcamp
 3. Introduce students to programming
 3. Create a first opportunity for students to decide if programming is for them
 4. Market Code Guild
