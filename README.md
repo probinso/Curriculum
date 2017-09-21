@@ -1,4 +1,4 @@
-# Learn Python the Guild Way
+# Learn Python
 
 ## Overall Goals
 1. Setup and standardize student environments
