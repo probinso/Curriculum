@@ -5,7 +5,6 @@
 1. Give attendees a basic foundation to launch their learning journey
 3. Introduce students to programming
 3. Create a first opportunity for students to decide if programming is for them
-4. Market Code Guild
 
 ## Form of Course
 Below is a description of what to expect
