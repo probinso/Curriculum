@@ -28,10 +28,10 @@ As a student here, you will have access to this material. I intend to walk throu
 There exists a copy of this material online, feel free to enjoy it.
 
 ## Lecture Materials
-1. [Day 1](./1DAY.md)
-2. [Day 2](./2DAY.md)
-3. [Day 3](./3DAY.md)
-4. [Day 4](./4DAY.md)
-4. [Day 5](./5DAY.md)
-4. [Day 6](./6DAY.md)
+1. [Day 1 - Introduction, and Development Tools](./1DAY.md)
+2. [Day 2 - Types and Control Flow](./2DAY.md)
+3. [Day 3 - Functions and Hangman](./3DAY.md)
+4. [Day 4 - Modules and Package Management](./4DAY.md)
+4. [Day 5 - ](./5DAY.md)
+4. [Day 6 - ](./6DAY.md)
 
