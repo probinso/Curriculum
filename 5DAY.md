@@ -13,6 +13,7 @@ Virtual Environments help to solve reproducability problems
 ```
 $ virtualenv venv
 $ source venv/bin/activate
+$ deactivate
 ```
 
 ### Finding a Module
@@ -33,7 +34,9 @@ Although it isn't common practice for small projects, industry projects often ha
 Please do not use `sudo`. It is dangerous to install packages with the `sudo` command on your system.
 
 ```
-$ pip install --user names
+$ source venv/bin/activate
+$ pip install names
+$ pip freeze > requirements.txt
 ```
 
 # Review on whiteboard the current content
