@@ -1,8 +1,3 @@
-# Boot Camp
-http://pdxcodeguild.com/
-* Full Stack
-* Front End
-
 # More on Modules
 We firts identify a tast, then we search for a package that provides that facility. In this instance, we are in needs of random names of people for our *Simplified Blackjack*.
 
