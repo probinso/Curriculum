@@ -1,4 +1,4 @@
-# Learn Python
+# Introductory Python Course
 
 ## Overall Goals
 1. Setup and standardize student environments
