@@ -11,8 +11,8 @@ Below is a description of what to expect
 
 ### Every Day
 0. Code Review previous Day's Lab for every submission
+2. Writing of previously covered material on white board
 1. Lecture
-2. Writing of covered material on white board
 3. Description of Lab
 4. Pair off and implement Lab (labs do not need to be finished)
 
