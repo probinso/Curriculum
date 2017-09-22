@@ -1,5 +1,18 @@
 # More on Modules
-We firts identify a tast, then we search for a package that provides that facility. In this instance, we are in needs of random names of people for our *Simplified Blackjack*.
+We firts identify a task, then we search for a package that provides that facility. In this instance, we are in needs of random names of people for our *Simplified Blackjack*.
+
+### Installation Destinations
+* system install (`brew`, `yum`, and `apt-get`)
+* `pip` can either install to your `system` or `user` instances of python
+* `virtualenv` mimics your python libraries in a directory localized instance
+
+### Virtual Environments and `requirements.txt`
+Virtual Environments help to solve reproducability problems
+
+```
+$ virtualenv venv
+$ source venv/bin/activate
+```
 
 ### Finding a Module
 For today's class, I needed a way to generate names of game players. Lets see if someone else has done it!
