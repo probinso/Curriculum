@@ -5,6 +5,7 @@ We firts identify a task, then we search for a package that provides that facili
 * system install (`brew`, `yum`, and `apt-get`)
 * `pip` can either install to your `system` or `user` instances of python
 * `virtualenv` mimics your python libraries in a directory localized instance
+* `conda` is the continuum analytics packackage and environment handler, prefered by many scientists
 
 ### Virtual Environments and `requirements.txt`
 Virtual Environments help to solve reproducability problems
