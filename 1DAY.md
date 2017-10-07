@@ -1,13 +1,15 @@
 # Day 1 - Setup Environment, Shell, Basic Programming, First Exercise
 ## Setup Environment
 
-1. [Atom](https://github.com/selassid/codeguild/blob/master/notes/atom.md) and [Tricks](https://github.com/selassid/codeguild/blob/master/notes/atom-python.md)
-2. [Python](https://github.com/selassid/codeguild/blob/master/notes/py.md)
+As an author of code, you will be needing an editor. As *Microsoft Office* or *Open Office* better enable office tasks, *Text Editors* and *Integrated Development Environments* are the tools of a programmer. There are many choices, but I am only cross platform tools (those that behave the same across *Windows*, *Mac*, and *Linux*). Different tools have different advantages, but we will encourage you to use simple tools until you outgrow them.
+
+1. [Atom](https://atom.io/) is our preferred editor. More advanced Atom users may be interested in [Tricks](https://github.com/selassid/codeguild/blob/master/notes/atom-python.md).
+2. A guide to install [Python](https://github.com/selassid/codeguild/blob/master/notes/py.md) is found here.
 
 ## Shell
-A shell is another way for you to interact with your computer. This is often a CLI (Command Line Interface) as apposed to a GUI (Graphical User Interface). Developers often favor CLI due to the ease of automating repetitive tasks. We will to look at [Powershell/Bash](https://github.com/selassid/codeguild/blob/master/notes/cli.md) and how it compares to your GUI.
+A shell is another way for you to interact with your computer. This is often called a CLI (Command Line Interface) as apposed to a GUI (Graphical User Interface). Developers often favor CLI due to the ease of automating repetitive tasks. We will to look at [Powershell/Bash](https://github.com/selassid/codeguild/blob/master/notes/cli.md) and how it compares to your GUI.
 
-[Learn Python the Hard Way - Appendix A](http://learnpythonthehardway.org/book/appendixa.html)
+[Bash Resource](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 
 ## Python
 In this course we are introducing you to python. Our first exercise will show you how to make a python file, establish a workflow, understand variables and introduce some programming vocabulary.

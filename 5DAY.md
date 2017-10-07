@@ -1,14 +1,14 @@
 # More on Modules
-We firts identify a task, then we search for a package that provides that facility. In this instance, we are in needs of random names of people for our *Simplified Blackjack*.
+We first identify a task, then we search for a package that provides that facility. In this instance, we are in needs of random names of people for our *Simplified Blackjack*.
 
 ### Installation Destinations
 * system install (`brew`, `yum`, and `apt-get`)
+* `conda` is the continuum analytics package and environment handler, preferred by many scientists
 * `pip` can either install to your `system` or `user` instances of python
 * `virtualenv` mimics your python libraries in a directory localized instance
-* `conda` is the continuum analytics packackage and environment handler, prefered by many scientists
 
 ### Virtual Environments and `requirements.txt`
-Virtual Environments help to solve reproducability problems
+Virtual Environments help to solve reproducablity problems
 
 ```
 $ virtualenv venv
@@ -28,7 +28,7 @@ https://pypi.python.org/pypi
 ![Names search](./example-files/find.png)
 
 ### Audit the code
-Although it isn't common practice for small projects, industry projects often have an auditing process. This is a small enough module for us to audit during class. 
+Although it isn't common practice for small projects, industry projects often have an auditing process. This is a small enough module for us to audit during class.
 
 ### Installing **names**
 Please do not use `sudo`. It is dangerous to install packages with the `sudo` command on your system.
@@ -53,15 +53,15 @@ Modifications to rules
 4. Dealer doesn't player
 
 ```python
-#!/usr/bin/env python                                                                                    
+#!/usr/bin/env python
 
 from collections import namedtuple
 from random      import shuffle
 from itertools   import cycle
 from names       import get_full_name
 
-"""                                                                                                      
-The goal of this assignment is to have you define your own game rules                                    
+"""
+The goal of this assignment is to have you define your own game rules
 """
 
 def new_deck():
@@ -101,4 +101,3 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-
