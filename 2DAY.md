@@ -5,7 +5,7 @@ In this section we develop a more complete understanding of types. In your caree
 ### [String](https://docs.python.org/3.5/library/string.html)
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -44,7 +44,7 @@ str.index         str.lstrip        str.title
 str.isalnum       str.maketrans     str.translate
 str.isalpha       str.partition     str.upper
 str.isdecimal     str.replace       str.zfill
-str.isdigit       str.rfind         
+str.isdigit       str.rfind
 
 In [6]: str.capitalize('cat')
 Out[6]: 'Cat'
@@ -74,7 +74,7 @@ capitalize(...)
 * `partition`, `rpartition`
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -96,7 +96,7 @@ Students will now be asked to investigate one of the methods on strings, then ta
 ### Integer
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -114,7 +114,7 @@ Out[2]: int
 In [3]: int.
 int.bit_length   int.from_bytes   int.real
 int.conjugate    int.imag         int.to_bytes
-int.denominator  int.numerator    
+int.denominator  int.numerator
 
 In [3]: bin(9)
 Out[3]: '0b1001'
@@ -138,7 +138,7 @@ In [7]:
 ### Boolean
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -147,7 +147,7 @@ IPython 4.2.0 -- An enhanced Interactive Python.
 help      -> Python's own help system.
 object?   -> Details about 'object', use 'object??' for extra details.
 
-In [1]: 
+In [1]:
 
 In [1]: True
 Out[1]: True
@@ -182,7 +182,7 @@ Out[10]: bool
 In [11]: bool.
 bool.bit_length   bool.from_bytes   bool.real
 bool.conjugate    bool.imag         bool.to_bytes
-bool.denominator  bool.numerator    
+bool.denominator  bool.numerator
 
 In [11]: issubclass(bool, int)
 Out[11]: True
@@ -196,12 +196,12 @@ Out[13]: True
 In [14]: (True / 5) ** (True + 4)
 Out[14]: 0.0003200000000000001
 
-In [15]: 
+In [15]:
 ```
 ### Float
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -217,7 +217,7 @@ In [2]: float.
 float.as_integer_ratio  float.imag
 float.conjugate         float.is_integer
 float.fromhex           float.real
-float.hex               
+float.hex
 
 In [2]: 1/3
 Out[2]: 0.3333333333333333
@@ -236,7 +236,7 @@ Out[5]: 0.3333333333333333
 List is our first complex data type. A list is an ordered collection of elements.
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -314,14 +314,14 @@ lm.copy     lm.index    lm.remove
 In [20]: li == [3, 3, 3]
 Out[20]: True
 
-In [21]: 
+In [21]:
 ```
 
 ### [Set](https://docs.python.org/3/tutorial/datastructures.html#sets)
 Sets are mutable unordered collections with fast lookup.
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -357,7 +357,7 @@ In [10]: si.add('olympia')
 In [11]: si
 Out[11]: {'elephant', 345, 'pig', 'olympia'}
 
-In [12]: 
+In [12]:
 
 ```
 
@@ -390,7 +390,7 @@ print(pos)
 ### if, elif and else, ternary
 ```
 $ ipython3 -i unmagic.py
-Python 3.4.2 (default, Jul  9 2015, 17:24:30) 
+Python 3.4.2 (default, Jul  9 2015, 17:24:30)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 4.2.0 -- An enhanced Interactive Python.
@@ -401,18 +401,18 @@ object?   -> Details about 'object', use 'object??' for extra details.
 
 In [1]: if 1 == 1:
    ...:     print('cat')
-   ...:     
+   ...:
 cat
 
 In [2]: if 1 == 3:
    ...:     print('cat')
-   ...:     
+   ...:
 
 In [3]: if 1 == 3:
    ...:     print('cat')
    ...: else:
    ...:     print('dog')
-   ...:     
+   ...:
 dog
 
 In [4]: print('cat' if 1 == 1 else 'dog')
@@ -424,7 +424,7 @@ In [5]: if 0:
    ...:     print('1 equals True')
    ...: else:
    ...:     print('neither equals True')
-   ...:     
+   ...:
 1 equals True
 ```
 ### Loops - For, While, Break, Continue
@@ -559,4 +559,3 @@ w   |  j
 x   |  k
 y   |  l
 z   |  m
-
