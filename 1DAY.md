@@ -14,19 +14,20 @@ A shell is another way for you to interact with your computer. This is often cal
 ## Python
 In this lecture we introduce you to basics of using `python`. Our first exercise will show you how to author a `python` file, establish a workflow, understand simple variables, and introduce some programming vocabulary.
 
-A python source file, or `.py` file, designates the file containing your python code. This is the file that you will edit and author. Once you learn the `python` language you will write `.py` files, as if you had learned chineese to author chineese writing.
+A `python` source file, or `.py` file, is a file containing your python code. This is the file that you will edit and author. Once you learn the `python` language you will write `.py` files, as if learning to write in `Microsoft Word` enables you to write `.docx` files.
+
 ![python](example-files/python.png)
 
 `cpython` (which is what you installed) is an implementation of the python language in the `c` programming language. `Python` is a specification, and `cpython` is an implementation. As a simplification we can think of English as specification, where `Websters` and `Oxford English` are competing implementations (minus grammar rules). Competing implementations of `python` are `jython` (implemented in `java`) and `pypy` (implemented in `python` itself).
 
 ![python](example-files/cpython.png)
 
-
+Running `python` from your command line executes `cpython` on your `filename.py` program. This will interpret your program, and translate it into `bytecode` that is a simpler instruction set. This is a common strategy in programming languages. A *High Level Language* is one that is easy for a human to write and interpret because it is very expressible. A *Low Level Language* is one that is harder for a human and easier for your processor to interpret. This `bytecode` is a translation of your instructions into something easier for your computer to handle. Luckily knowing this process is enough, as you will likely never interact with the language at the bytecodes level.
 
 ![python](example-files/interpreter.png)
 
 
-I suggest having `ipython shell` and your `atom editor` both open in your workspace, until you develop your own work flow. Those with mac or linux can install use `bpython shell` if they prefer. Users of `ipython` on `Windows` will need to install `pyreadline`.
+I suggest having [`ipython shell`](https://ipython.org/install.html) and your `atom editor` both open in your workspace, until you develop your own work flow. Those with mac or linux can install use `bpython shell` if they prefer. Users of `ipython` on `Windows` will need to install `pyreadline`.
 
 ### disabling magic in your ipython environment
 ```
