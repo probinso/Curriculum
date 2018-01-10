@@ -1,5 +1,8 @@
 # Day 3
 ### Functions
+
+Functions are a way to encapsulate your work, reduce code profile, and generalize code; which are all goals for any effective programmer.
+
 ```python
 #!/usr/bin/env python
 
