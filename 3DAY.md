@@ -12,7 +12,7 @@ def do_nothing():
 def give_me_five():
     return 5
 
-def give_me_the_input(x):
+def give_me_the_value(x):
     return x
 ```
 ```python
