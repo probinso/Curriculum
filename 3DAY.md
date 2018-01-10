@@ -3,13 +3,13 @@
 ```python
 #!/usr/bin/env python
 
-def first_example():
+def do_nothing():
     pass
 
-def second_example():
+def give_me_five():
     return 5
 
-def third_example(x):
+def give_me_the_input(x):
     return x
 ```
 ```python
@@ -17,26 +17,28 @@ def third_example(x):
 
 x = 7
 
-def fourth_example(x):
+def double_value(x):
     return x + x
 
-print(fourth_example(3))
+print(double_value(3))
 ```
+
 ```python
 #!/usr/bin/env python
 
-def plus(x, func):
+def add_to_func(x, func):
     return x + func(x)
 
 def square(x):
     return x ** 2
 
-print(plus(5, square))
+print(add_to_func(5, square))
 ```
+
 ```python
 
 #!/usr/bin/env python
-def func(x):
+def square(x):
     return x * x
 
 li = [3, 4, 5, 6, 7, 8, 9, 10]
@@ -47,7 +49,7 @@ for element in li:
 
 _ = input()
 for index, value in enumerate(li):
-    li[index] = func(value)
+    li[index] = square(value)
 
 print(li)
 ```
@@ -72,20 +74,20 @@ print('outside cat: ', cat)
 
 _ = input()
 
-def fifth_example(x, y):
+def operate_on_values(x, y):
     return x + y
 
-def sixth_example(x):
-    def fifth_example(x, y):
+def rescope_operation(x):
+    def operate_on_values(x, y):
         return x * y
 
-    return fifth_example(x, x)
+    return operate_on_values(x, x)
 
 _ = input()
-print(fifth_example(10))
+print(operate_on_values(10))
 
 _ = input()
-print(sixth_example(10))
+print(rescope_operation(10))
 ```
 
 ### List Comprehensions
