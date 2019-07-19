@@ -32,5 +32,4 @@ There exists a copy of this material online, feel free to enjoy it.
 3. [Day 3 - Functions and Hangman Challenge](./3DAY.md)
 4. [Day 4 - Modules and Package Management](./4DAY.md)
 4. [Day 5 - More on Modules, Audits and Blackjack Challenge](./5DAY.md)
-4. [Day 6 - Jupyter and Pandas](./6DAY.md)
 
