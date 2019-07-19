@@ -1,5 +1,0 @@
-# Jupyter Notebooks!
-
-# Pandas
-
-# Assignment
