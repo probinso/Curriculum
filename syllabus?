@@ -1,0 +1,62 @@
+# Goals
+
+The point of this class is to introduce nessicary skills to make community impact and develop intellectual property through software development. The expectation is that you arive green.
+
+# Topics
+
+- Shell (1 Week)
+ - shell vs GUI
+ - Folder navigation
+ - Bash
+ - man pages
+ - apropos
+- Computers (1 Week)
+ - Circuit Operations
+ - What is machine code?
+ - What is abstraction
+- Version Control & Remote Work (1 Week)
+ - Ticketing Systems
+ - Time Tracking / Management
+ - Nessicary Working Environment
+ - Git for collaboration
+ - Git for personal projects
+- Python as a scripting language (2 Weeks)
+ - Statements
+ - Control Flow
+ - Functions
+ - Logging?
+ - Classes
+ - Packages
+- Typescript & HTML for UX (2 Weeks)
+ - Basic DOM
+ - Basic UI
+ - Document Data/Pipeline Processing
+- Sourcing Projects for Community Impact (1 Week)
+ - Identifying who needs what information
+ - Intro to Threat Modeling as a Concept
+ - Identifying what can be automated
+ - Identifying what is hard
+ - Sourcing non-profits and community centers and activities in your area
+- Python as a backend (2 Weeks)
+ - POST, PUT, GET
+ - Basic Networking (telnet style chat)
+ - Broadcast vs Direct
+ - Flask
+ - API design
+- Chat applications (2 Days)
+- postgres / sqlite as a datastore (1 Week)
+- Javascript as a framework (2 Weeks)
+ - angular? ...
+- Pitching projects (1 Week)
+- Credentials and Users
+ - Cloud managed accounts
+ - Self managed accounts
+- Threat Models
+ - Access Control Lists
+ - Threat modeling for hosting
+ - Threat modeling for users
+ - Thread modeling for managed accounts
+- phone applications
+ - nativescript? flutter? Others?
+- IOT (2 Weeks)
+- Cloud hosting for small projects (2 Weeks)
