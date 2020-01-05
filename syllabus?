@@ -2,6 +2,39 @@
 
 The point of this class is to introduce nessicary skills to make community impact and develop intellectual property through software development. The expectation is that you arive green.
 
+# Special Topics
+- Image Processing (Image Segmentation)
+- Language Processing (Genius Lyrics Study)
+- Audio Processing (Spectral Power Subtraction)
+ - Data Journalism / Reporting
+  - Data Visualization (MinardMap.org)
+  - 
+- Crowdsourcing (HappyWhale)
+- Secrets
+  - Steganography (Demo)
+  - Cryptography (Historical Cyphers)
+  * Privacy Systems (Tor)
+- Artificial Intelligence
+  - Symbolic
+    - Game Solvers (Tic-Tac-Toe)
+    - Transformers (Therapy)
+  - Statistical
+    - Classification
+    - Generative
+    - Regression
+- Security & Privacy Systems
+  - Password Crackers (Rainbow Tables, John the Ripper)
+  - Network Security (Wireshark & WEP cracking)
+- Opressive Systems of Scale
+  - Snowden Files
+  - Wepons of Math Destruction (Employment Personality Tests)
+  * Free Speech and Attention Systems on Social Media
+- Scientific Computing
+- Internet of Things
+- Wearable Technology (AdaFruit)
+
+The throughline of this course is to build a Search Engine 
+
 # Topics
 
 - Shell (1 Week)
@@ -14,13 +47,14 @@ The point of this class is to introduce nessicary skills to make community impac
  - Circuit Operations
  - What is machine code?
  - What is abstraction
+- IDE setup (Atom)
 - Version Control & Remote Work (1 Week)
  - Ticketing Systems
  - Time Tracking / Management
  - Nessicary Working Environment
- - Git for collaboration
  - Git for personal projects
-- Python as a scripting language (2 Weeks)
+ - Git for collaboration
+- Python as a CLI tool (2 Weeks)
  - Statements
  - Control Flow
  - Functions
@@ -28,6 +62,11 @@ The point of this class is to introduce nessicary skills to make community impac
  - Logging
  - Classes
  - Packages
+- Python as a Analysis Tool (2 day)
+ - Jupyter & non-sequential workflows
+ - matplotlib
+ - using pandas
+ - using numpy (& array programming)
 - Typescript & HTML for UX (2 Weeks)
  - Basic DOM
  - Basic UI
@@ -35,6 +74,7 @@ The point of this class is to introduce nessicary skills to make community impac
 - Sourcing Projects for Community Impact (1 Week)
  - Identifying who needs what information
  - Intro to Threat Modeling as a Concept
+ - Identifying sharing as a value add
  - Identifying what can be automated
  - Identifying what is hard
  - Sourcing non-profits and community centers and activities in your area
@@ -45,6 +85,10 @@ The point of this class is to introduce nessicary skills to make community impac
  - Flask
  - API design
 - Chat applications (2 Days)
+- Document Storage
+ - What is a document
+ - Sourcing Documents (BeutifulSoup)
+ - 
 - postgres / sqlite as a datastore (1 Week)
 - Javascript as a framework (2 Weeks)
  - angular? ...
@@ -59,5 +103,4 @@ The point of this class is to introduce nessicary skills to make community impac
  - Thread modeling for managed accounts
 - phone applications
  - nativescript? flutter? Others?
-- IOT (2 Weeks)
 - Cloud hosting for small projects (2 Weeks)
